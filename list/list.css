@@ -1,0 +1,42 @@
+/* tag selector */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* id selector */
+#main{
+    border-color: whitesmoke;
+
+}
+
+#main-first{
+    height: 80px;
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-first b{
+    color: #ffa;    
+    font-size: 40px;
+}
+
+.first-card{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 250px;
+    min-height: 300px;
+    box-shadow: 3px 4px 10px gray ;
+}
+
+.card-title{
+    background-color: red;
+    height: 60px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

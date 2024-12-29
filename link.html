@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <style>
+        a:link{
+            color: lightcoral;
+        }
+        a:visited{
+            color: cyan;
+        }
+        
+        a:hover{
+            color: aliceblue;
+        }
+        a:active{
+            color: #ababab;
+        }
+    </style>
+</head>
+
+<!-- using attributes -->
+<body link="#f0f" vlink="#f00" alink="#0f0">
+    <!-- hyperlink with box -->
+    <a href="https://www.youtube.com/watch?v=0YeON4p0ogw" target="_blank" title="">
+        <div style="height: 50px; width: 50px; background-color: aquamarine;"></div>
+    </a>
+
+
+    <!-- hyperlink with image -->
+    <a href="http://daraz.com.np" target="_blank" title="go to daraz">
+        <img src="../assets/b.gif" alt="cat pic">
+    </a>
+
+
+    <!-- default style of link -->
+    <a href="https://www.youtube.com" target="_blank" >
+        <p>unvisited</p>
+    </a>
+    <a href="">
+        <p>visited</p>
+    </a>
+    <a href="google.com">
+        <p>active</p>
+    </a>
+
+    <!-- button as a link -->
+    <button onclick="window.location='https://google.com'">Google</button>
+
+    <!-- sending mail using hyperlink -->
+    <a href="mailto: raisanjog9840@gmail.com?subject=xyz&body=hows life"">
+        Send Mail
+    </a>
+</body>
+</html>
