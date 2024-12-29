@@ -22,12 +22,22 @@ body{
     color: #ffa;    
     font-size: 40px;
 }
+#main-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    font-size: large;
+}
 
 .first-card{
     border-radius: 10px;
     background-color: antiquewhite;
     width: 250px;
     min-height: 300px;
+    border-bottom: 4px solid red;
     box-shadow: 3px 4px 10px gray ;
 }
 
@@ -39,4 +49,27 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+}
+.second-card{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 250px;
+    min-height: 300px;
+    border-bottom: 4px solid red;
+    box-shadow: 3px 4px 10px gray ;
+}
+
+.second-card .card-title{
+    background-color: blue;
+}
+.third-card{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 250px;
+    min-height: 300px;
+    border-bottom: 4px solid red;
+    box-shadow: 3px 4px 10px gray ;
+}
+.third-card .card-title{
+    background-color: green;
 }
