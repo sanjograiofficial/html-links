@@ -35,41 +35,65 @@ body{
 .first-card{
     border-radius: 10px;
     background-color: antiquewhite;
-    width: 250px;
+    width: 400px;
     min-height: 300px;
     border-bottom: 4px solid red;
     box-shadow: 3px 4px 10px gray ;
 }
+.first-card li{
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
 
 .card-title{
-    background-color: red;
+    background-color: rgb(169, 28, 28);
     height: 60px;
     border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 2rem;
+
 }
 .second-card{
     border-radius: 10px;
     background-color: antiquewhite;
-    width: 250px;
+    width: 400px;
     min-height: 300px;
-    border-bottom: 4px solid red;
+    border-bottom: 4px solid rgb(194, 194, 38);
     box-shadow: 3px 4px 10px gray ;
 }
 
 .second-card .card-title{
-    background-color: blue;
+    background-color: rgb(194, 194, 38);
+    font-size: 2rem;
+
+}
+
+.second-card .second-part{
+    background-color: #ffa;
+    padding: 5px;
 }
 .third-card{
     border-radius: 10px;
     background-color: antiquewhite;
-    width: 250px;
+    width: 400px;
     min-height: 300px;
-    border-bottom: 4px solid red;
+    border-bottom: 4px solid rgb(30, 30, 173);
     box-shadow: 3px 4px 10px gray ;
 }
 .third-card .card-title{
-    background-color: green;
+    background-color: rgb(30, 30, 173);
+    font-size: 2rem;
+}
+.third-card dl{
+    text-align: justify;
+}
+.third-card dt{
+    font-size: 1.1rem;
+    color: rgb(178, 23, 23);
+}
+.third-card dd{
+    font-size: 0.9rem;
 }
